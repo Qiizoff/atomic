@@ -1,18 +1,19 @@
-# atomic
+## Телеграмм бот для поиска NFT на маркетплейсе [ATOMICHUB](https://wax.atomichub.io/)
+  
+## Конфигурация 
+Для полноценной работы требуется создать файл config.py содержащий:
 
-Телеграмм бота для поиска NFT на маркетплейсе [ATOMICHUB](https://wax.atomichub.io/)
+>API_START_TOKEN = '' - токен бота телеграмм
+API_PR_KEY = '' - приватный ключ аккаунта
 
-Для полноценной работы требуеться создать файл config.py содержащий:
-API_START_TOKEN = '' - токен бота телеграмм
-API_PR_KEY = '' - приватный клоючь аккаунта 
+Для работы бота потребуется создать кошелек на блокчейне [WAX ](https://www.greymass.com/anchor)
 
-Для работы бота потребуется создать аккаунт на блокчейне WAX https://www.greymass.com/anchor.
-
+Аккаунт кошелька должен иметь положительный баланс.
 https://wax.atomichub.io/settings#balance - проверка баланса
+
+## Запуск бота
+atomic_start.py
+
+## Контакты
+https://t.me/Qiizoff
 https://t.me/atomicstart - действующий бот телеграмм
-
-
-atomic_start.py для запуска парсера
-
-
-https://t.me/Qiizoff - мой телеграмм
